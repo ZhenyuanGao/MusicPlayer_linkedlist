@@ -1,5 +1,4 @@
 # MusicPlayer_linkedlist
-Build a Music Player with Linkedlist
 1
 A company you are working for is asking you to write a program, musicPlayer, that creates a playlist of songs (and their artist) in a specific order.  They want you to implement your own simple data type called SimplePlayList to act as the playlist. Each song’s  title and the artist should be stored together, but as separate attributes.  Because space is very expensive for the company (given the high number of users they support), they want SimplePlayList to be minimalistic in terms of space (ie. it should only contain attributes that are needed).  An empty playlist should use minimal memory.  Your main program, musicPlayer, should utilize a SimplePlayList object and be able to process the following commands by the user:
 push: adds a song to the front of the playlist in O(1) time.
